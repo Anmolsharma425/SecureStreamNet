@@ -1,4 +1,5 @@
-# SecureStreamNet
-This repo is for the computer network project sem 6 </b>
-number of frames in video1 is 437</b>
-number of frames in video2 is 1080</b>
+# SecureStreamNet  
+This repo is for the computer network project (Sem 6) <br>  
+**Number of frames in video1:** 437 <br>  
+**Number of frames in video2:** 1080 <br>  
+
