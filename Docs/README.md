@@ -1,5 +1,5 @@
-# SecureStreamNet  
-This repo is for the computer network project (Sem 6) <br>  
-**Number of frames in video1:** 437 <br>  
-**Number of frames in video2:** 1080 <br>  
-
+# SecureStreamNet
+SecureStreamNet is a computer network project focused on secure video streaming and client-server communication using socket programming.
+## 🎥 Video Details  
+- **Number of frames in video1:** 437  
+- **Number of frames in video2:** 1080 
