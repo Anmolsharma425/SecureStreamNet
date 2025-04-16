@@ -18,8 +18,10 @@ def handle_client(client_socket: socket.socket, client_address: tuple) -> None:
         broadcast_client_list()
         
         while True:
+            recipient_name = client_socket.recv(1024).decode()
             encrypted_message = client_socket.recv(4096).decode()
-            if not encrypted_message:
+
+            if not recipient_name or not encrypted_message:
                 break
             print(f"[MESSAGE RECEIVED] {client_name}: {encrypted_message[:50]}...")
             
